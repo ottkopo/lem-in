@@ -23,6 +23,6 @@ We did quite a bit of research before starting coding. We ended up using a combi
 
 **What I learned from this project**
 
-Since this project was done in a team, I obviously picked up quite a few things about how to work (and how not to work) in a team. In addition to that this was the first time we got to actually find a pre-existing algorithm and implement it in our own programs. Previously we got by with just coming up with single algorithms on our own but here we had to *(well didn't have to but it was smart)* use a pre-existing algorithm to accomplish our goals. 
+Since this project was done in a team, I obviously picked up quite a few things about how to work (and how not to work) in a team. In addition to that this was the first time we got to actually find a pre-existing algorithm and implement it in our own programs. Previously we got by with just coming up with sinple algorithms on our own but here we had to *(well didn't have to but it was smart)* use a pre-existing algorithm to accomplish our goals. 
 
 There was also quite a bit of complex parsing in this project, since we received the maps as files and had to read, validate and transfer the data to a form we could use with our program. We used a hashmap approach to this which was also a new, but overall very useful concept to learn.
