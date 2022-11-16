@@ -3,7 +3,7 @@ Ant farm manager
  
  <img width="883" alt="image" src="https://user-images.githubusercontent.com/58331418/201905380-36db415c-bf8f-4558-b3a9-339fb1f68afa.png">
 
-Lem-in is the second to last project in the Algorithm branch at Hive Helsinki. It is a project done in a group of 2 and my partner for this project was another student of Hive, Atte Köykkä.
+Lem-in is the second to last project in the Algorithm branch at Hive Helsinki. It is a project done in a group of 2 and my partner for this project was another student of Hive, [Atte Köykkä](https://github.com/Akoykka).
 
 
 **Here is a visual representation of how our algorithm works!**
