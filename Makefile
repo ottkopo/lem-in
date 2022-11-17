@@ -6,7 +6,7 @@
 #    By: akoykka <akoykka@student.hive.fi>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/27 13:55:47 by okoponen          #+#    #+#              #
-#    Updated: 2022/10/21 15:06:32 by akoykka          ###   ########.fr        #
+#    Updated: 2022/11/17 13:46:43 by okoponen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,12 +45,12 @@ INCLUDES = -I includes/
 all : $(NAME)
 
 $(NAME) : $(OBJ) Makefile
-	make -C $(LIBFT)
-	gcc $(FLAGS) -Llibft -lft $(OBJ) -o $(NAME) $(INCLUDES)
+	@ make -C $(LIBFT)
+	@ gcc $(FLAGS) -Llibft -lft $(OBJ) -o $(NAME) $(INCLUDES)
 	@echo "$(GREEN)Lem_in completed$(DEF_COLOR)"
 
 $(OBJ) : %.o: $(SRC_DIR)%.c Makefile
-	gcc $(FLAGS) -c $< -o $@ $(INCLUDES)
+	@ gcc $(FLAGS) -c $< -o $@ $(INCLUDES)
 
 clean :
 	rm -f $(OBJ)
