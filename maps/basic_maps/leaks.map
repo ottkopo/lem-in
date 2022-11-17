@@ -1,0 +1,23 @@
+5
+##start
+l 0 0
+e 1 1
+a 2 2
+k 3 3
+##end
+s 4 4
+l-a
+l-e
+a-k
+e-s
+k-s
+#
+#     [l]
+#    /   \
+#  [e]   [a]
+#   |     |
+#   |    [k]
+#    \   /
+#     [s]
+#
+#Lines required: ?
